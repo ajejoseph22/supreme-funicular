@@ -7,10 +7,11 @@
 
 setup:
 	# Create python virtualenv & source it
-	# source ~/.devops/bin/activate
-	python3 -m venv ~/.devops
+	python3 -m venv ~/.venv
+	source ~/.venv/bin/activate
 
 install:
+	wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 && chmod +x /bin/hadolint
 	# This should be run from inside a virtualenv
 	pip install --no-cache-dir --upgrade pip &&\
 		pip install --no-cache-dir --no-binary :all -r requirements.txt
