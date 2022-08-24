@@ -5,12 +5,12 @@ set -e
 DOCKER_PATH=ajejoseph22/mlapi
 
 # Run the Docker Hub container with kubernetes
-kubectl run mlapi --image=$DOCKER_PATH --port=80
+kubectl run mlapi --image=$DOCKER_PATH --port=80 || echo "Pod already exists"
 
 # While pod is not running, wait
 until kubectl get pods | grep mlapi | grep Running; do
   echo "Waiting for pod to be running"
-  sleep 1
+  sleep 5
 done
 
 # List kubernetes pods
