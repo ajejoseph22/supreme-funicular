@@ -1,1 +1,5 @@
-<paste log output from Kubernetes-mediated prediction, here>
+NAME    READY   STATUS    RESTARTS   AGE
+mlapi   1/1     Running   0          8m41s
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
+Handling connection for 8080
