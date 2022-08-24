@@ -29,6 +29,9 @@ That's it
 * Setup a venv with `python3 -m venv venv`
 * Activate the venv with `source venv/bin/activate`
 * Install dependencies with `pip install -r requirements.txt`
+* To lint the code, install hadolint using ```
+wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v1.16.3/hadolint-Linux-x86_64 &&
+            chmod +x /bin/hadolint``` and then run `make lint`
 * Run the server with `python app.py`
 * Change `$PORT` in `make_prediction.sh` to `80`  and run `bash make_prediction.sh` to call the API
 

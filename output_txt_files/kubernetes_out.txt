@@ -3,3 +3,15 @@ mlapi   1/1     Running   0          8m41s
 Forwarding from 127.0.0.1:8080 -> 80
 Forwarding from [::1]:8080 -> 80
 Handling connection for 8080
+[2022-08-24 21:10:49,007] INFO in app: JSON payload:
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2022-08-24 21:10:49,055] INFO in app: Inference payload DataFrame:
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2022-08-24 21:10:49,059] INFO in app: Scaling Payload:
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2022-08-24 21:10:49,063] INFO in app: Prediction:
+[20.35373177134412]
+127.0.0.1 - - [24/Aug/2022 21:10:49] "POST /predict HTTP/1.1" 200 -
+
