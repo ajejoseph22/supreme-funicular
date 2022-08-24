@@ -4,7 +4,7 @@ Circle CI status badge:
 
 ## Project Overview
 
-In this project, I operationalized a Machine Learning microservice API, containerized it and deployed to s Kubernetes cluster. I also set up continuous integration on Circle CI.
+In this project, I operationalized a Machine Learning microservice API, containerized it and deployed to a Kubernetes cluster. I also set up continuous integration on Circle CI.
 
 This project contains a `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing). This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
 
