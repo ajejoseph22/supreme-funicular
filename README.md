@@ -1,6 +1,6 @@
 Circle CI status badge: 
 
-[![ajejoseph22](https://circleci.com/gh/ajejoseph22/supreme-funicular.svg?style=svg)](https://circleci.com/gh/ajejseph22/supreme-funicular)
+[![ajejoseph22](https://circleci.com/gh/ajejoseph22/supreme-funicular.svg?style=svg)](https://app.circleci.com/pipelines/github/ajejoseph22/supreme-funicular/)
 
 ## Project Overview
 
