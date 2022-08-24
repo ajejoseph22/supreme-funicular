@@ -1,4 +1,6 @@
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+Circle CI status badge: 
+
+[![ajejoseph22](https://circleci.com/gh/ajejoseph22/supreme-funicular.svg?style=svg)](https://circleci.com/gh/ajejseph22/supreme-funicular)
 
 ## Project Overview
 
