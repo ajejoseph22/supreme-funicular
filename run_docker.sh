@@ -1,12 +1,8 @@
 #!/usr/bin/env bash
 
-## Complete the following steps to get Docker running locally
+set -e
 
-# Step 1:
-# Build image and add a descriptive tag
-
-# Step 2: 
-# List docker images
-
-# Step 3: 
-# Run flask app
+IMAGE_NAME=mlapi
+docker build --no-cache -t "$IMAGE_NAME" .
+docker image ls | grep "$IMAGE_NAME"
+docker run -p 8080:80 "$IMAGE_NAME"
